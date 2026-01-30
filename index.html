@@ -13,148 +13,280 @@
     <style type="text/tailwindcss">
       @theme {
         --color-bg-color: #fcfaf6;
-        --color-bg-accent: #F6F0E4;
+        --color-bg-accent: #f6f0e4;
         --color-text-color: #000000;
         --color-text-accent: #5b5b5b;
-        --color-text-accent-secondary: #3D1A0D;
-        --color-border-color: #E4E4E4;
+        --color-text-accent-secondary: #3d1a0d;
+        --color-border-color: #e4e4e4;
         --font-font-title: "Gowun Batang";
         --font-font-secondary: "Rethink Sans";
       }
     </style>
     <title>Lincoln High School</title>
   </head>
-  <body class='bg-bg-color font-font-title'>
+  <body class="bg-bg-color font-font-title">
     <nav class="relative">
-      <div class="mx-auto max-w-7xl px-6 py-6 border-b-2 border-border-color md:px-4 md:py-5 md:mx-17">
-        <div class="relative sm:hidden">
-
-            <input
-    type="checkbox"
-    id="burger-toggle"
-    class="peer hidden"
-  />
-
-               <label
-    for="burger-toggle"
-    class="cursor-pointer text-lg text-text-color
-           hover:text-text-accent hover:duration-700"
-  >
-    <span class="peer-checked:hidden">Menu</span>
-
-  </label>
-
-  <ul
-        class="absolute left-0 mt-3 w-full
-               hidden peer-checked:flex flex-col gap-2 p-3"
+      <div
+        class="mx-auto max-w-7xl px-6 py-6 border-b-2 border-border-color md:px-4 md:py-5 md:mx-17"
       >
-        <li><a class="block text-text-color px-3 py-2 text-lg cursor-pointer hover:text-text-accent hover:duration-700"">Home</a></li>
-        <li><a class="block text-text-color px-3 py-2 text-lg cursor-pointer hover:text-text-accent hover:duration-700"">Details</a></li>
-        <li><a class="block text-text-color px-3 py-2 text-lg cursor-pointer hover:text-text-accent hover:duration-700"">News</a></li>
-        <li><a class="block text-text-color px-3 py-2 text-lg cursor-pointer hover:text-text-accent hover:duration-700"">Contact</a></li>
-      </ul>
+        <div class="relative sm:hidden">
+          <input type="checkbox" id="burger-toggle" class="peer hidden" />
 
-    </div>
+          <label
+            for="burger-toggle"
+            class="cursor-pointer text-lg text-text-color hover:text-text-accent hover:duration-700"
+          >
+            <span class="peer-checked:hidden">Menu</span>
+          </label>
 
-    <div class="hidden sm:flex space-x-4 mt-4">
-      <a class="px-3 py-2 text-text-color cursor-pointer hover:text-text-accent hover:duration-700">Home</a>
-      <a class="px-3 py-2 text-text-color cursor-pointer hover:text-text-accent hover:duration-700">Details</a>
-      <a class="px-3 py-2 text-text-color cursor-pointer hover:text-text-accent hover:duration-700">News</a>
-      <a class="px-3 py-2 text-text-color cursor-pointer hover:text-text-accent hover:duration-700">Contact</a>
-    </div>
-</div>
+          <ul
+            class="absolute left-0 mt-3 w-full hidden peer-checked:flex flex-col gap-2 p-3"
+          >
+            <li>
+              <a
+                class="block text-text-color px-3 py-2 text-lg cursor-pointer hover:text-text-accent hover:duration-700"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="block text-text-color px-3 py-2 text-lg cursor-pointer hover:text-text-accent hover:duration-700"
+                >Details</a
+              >
+            </li>
+            <li>
+              <a
+                class="block text-text-color px-3 py-2 text-lg cursor-pointer hover:text-text-accent hover:duration-700"
+                >News</a
+              >
+            </li>
+            <li>
+              <a
+                class="block text-text-color px-3 py-2 text-lg cursor-pointer hover:text-text-accent hover:duration-700"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
 
+        <div class="hidden sm:flex space-x-4 mt-4">
+          <a
+            class="px-3 py-2 text-text-color cursor-pointer hover:text-text-accent hover:duration-700"
+            >Home</a
+          >
+          <a
+            class="px-3 py-2 text-text-color cursor-pointer hover:text-text-accent hover:duration-700"
+            >Details</a
+          >
+          <a
+            class="px-3 py-2 text-text-color cursor-pointer hover:text-text-accent hover:duration-700"
+            >News</a
+          >
+          <a
+            class="px-3 py-2 text-text-color cursor-pointer hover:text-text-accent hover:duration-700"
+            >Contact</a
+          >
+        </div>
+      </div>
     </nav>
 
     <section>
-      <div class="flex flex-col gap-3 md:flex-row md:justify-between md: text-center text-base bg-bg-accent py-4 px-6 font-font-secondary rounded-xl mx-5">
-        <p>
-          Announcement: Spring ASB Election is now live for voting!
-        </p>
+      <div
+        class="flex flex-col gap-3 md:flex-row md:justify-between md: text-center text-base bg-bg-accent py-4 px-6 font-font-secondary rounded-xl mx-5"
+      >
+        <p>Announcement: Spring ASB Election is now live for voting!</p>
         <a href="#" class="underline">Survey here</a>
       </div>
 
-      <div class='text-center mt-12 mx-5 mb-16 flex flex-col gap-12'>
-        <p>
-          Committed to all students in need
-        </p>
-        <h1 class="text-5xl">
-Lincoln High School Speech and Debate Club
-        </h1>
+      <div class="text-center mt-12 mx-5 mb-16 flex flex-col gap-12">
+        <p>Committed to all students in need</p>
+        <h1 class="text-5xl">Lincoln High School Speech and Debate Club</h1>
         <a href="#" class="font-font-secondary underline">Join us</a>
       </div>
-
     </section>
 
     <section class="relative w-full">
-  <img
-    src="/img/library.png"
-    alt="Library photo"
-    class="w-full h-auto object-cover"
-  />
+      <img
+        src="/img/library.png"
+        alt="Library photo"
+        class="w-full h-auto object-cover"
+      />
 
-  <div class="absolute inset-0 bg-text-color/20"></div>
-  </section>
+      <div class="absolute inset-0 bg-text-color/20"></div>
+    </section>
 
-<section>
-  <h1 class="text-5xl text-center mt-25 mb-21 md:text-6xl">What We Do</h1>
+    <section>
+      <h1 class="text-5xl text-center mt-25 mb-21 md:text-6xl">What We Do</h1>
 
-<div class="grid gap-5 mb-21 text-center mx-6 md:grid md:grid-cols-2 lg:mx-45 md:mx-16">
+      <div
+        class="grid gap-5 mb-21 text-center mx-6 md:grid md:grid-cols-2 lg:mx-45 md:mx-16"
+      >
+        <div class="py-12 md:col-span-2 md:py-14">
+          <p class="font-font-secondary text-text-accent-secondary pb-10">
+            Club Details:
+          </p>
+          <p class="text-xl">
+            Speech and Debate is where you'll learn to think critically, speak
+            confidently, and engage in exciting competitions. Here's everything
+            you need to know:
+          </p>
+        </div>
 
-<div class="py-12 md:col-span-2 md:py-14"><p class="font-font-secondary text-text-accent-secondary pb-10">Club Details:</p>
-<p class="text-xl">Speech and Debate is where you'll learn to think critically, speak confidently, and engage in exciting competitions. Here's everything you need to know:</p></div>
+        <div class="py-8 px-4 md:px-16 md:py-14 lg:px-20">
+          <p class="font-font-secondary pb-10 text-text-accent-secondary">
+            What:
+          </p>
+          <p class="text-xl pb-10">Ready to find your voice?</p>
+          <p class="font-font-secondary">
+            This is a safe place to hone your skills with like-minded peers.
+          </p>
+        </div>
 
-<div class="py-8 px-4 md:px-16 md:py-14 lg:px-20"><p class="font-font-secondary pb-10 text-text-accent-secondary">What:</p>
-<p class="text-xl pb-10">Ready to find your voice?</p>
-<p class="font-font-secondary">This is a safe place to hone your skills with like-minded peers.</p></div>
+        <div class="py-8 px-4 md:px-16 md:py-14 lg:px-20">
+          <p class="font-font-secondary pb-10 text-text-accent-secondary">
+            Who:
+          </p>
+          <p class="text-xl pb-10">All Lincoln High students</p>
+          <p class="font-font-secondary">
+            Everyone, in any grade, is welcome to join.
+          </p>
+        </div>
 
+        <div class="py-8 px-4 md:px-16 md:py-14 lg:px-20">
+          <p class="font-font-secondary pb-10 text-text-accent-secondary">
+            When:
+          </p>
+          <p class="text-xl pb-10">Wednesday, 3:30-4:30pm</p>
+          <p class="font-font-secondary">
+            You’ll be out in time for the late bus home.
+          </p>
+        </div>
 
-<div class="py-8 px-4 md:px-16 md:py-14 lg:px-20"><p class="font-font-secondary pb-10 text-text-accent-secondary">Who:</p>
-<p class="text-xl pb-10">All Lincoln High students</p>
-<p class="font-font-secondary">Everyone, in any grade, is welcome to join.</p></div>
+        <div class="py-8 px-4 md:px-16 md:py-14 lg:px-20">
+          <p class="font-font-secondary pb-10 text-text-accent-secondary">
+            Where:
+          </p>
+          <p class="text-xl pb-10">Room 204</p>
+          <p class="font-font-secondary">
+            We meet in Mr. Smith’s room. He’s our teacher sponsor.
+          </p>
+        </div>
+      </div>
 
+      <div class="relative mx-10 lg:mx-37 mb-16 place-items-center">
+        <img src="./img/classroom.png" alt="Classroom photo" />
+      </div>
+    </section>
 
-<div class="py-8 px-4 md:px-16 md:py-14 lg:px-20"><p class="font-font-secondary pb-10 text-text-accent-secondary">When:</p>
-<p class="text-xl pb-10">Wednesday, 3:30-4:30pm</p>
-<p class="font-font-secondary">You’ll be out in time for the late bus home.</p></div>
+    <section>
+      <h2 class="text-5xl text-center md:text-6xl mb-11 md:mb-21">
+        The latest news
+      </h2>
 
+      <div class="grid gap-5 mb-16 text-center mx-12 md:grid md:grid-cols-2">
+        <div
+          class="flex flex-col gap-8 py-12 px-8 md:col-span-2 border-2 border-border-color rounded-xl md:grid md:grid-cols-[282px_290px] md:place-content-around lg:grid-cols-[520px_520px]"
+        >
+          <img
+            src="./img/man-on-stage.png"
+            alt="Man on the stage"
+            class="row-[1_/span_3]"
+          />
+          <p class="font-font-secondary text-text-accent-secondary">
+            2025 Regional Results
+          </p>
+          <p class="text-xl">Lincoln Takes Home 1st place overall.</p>
+          <p class="font-font-secondary text-text-accent">
+            The team took home a stunning win, claiming 3 of the top 5 spots!
+            Big shout outs to Emily, Steve, Bryan and Lizzie.
+          </p>
+        </div>
 
-<div class="py-8 px-4 md:px-16 md:py-14 lg:px-20"><p class="font-font-secondary pb-10 text-text-accent-secondary">Where:</p>
-<p class="text-xl pb-10">Room 204</p>
-<p class="font-font-secondary">We meet in Mr. Smith’s room. He’s our teacher sponsor.</p></div>
+        <div
+          class="flex flex-col gap-8 py-12 px-8 border-2 border-border-color rounded-xl"
+        >
+          <p class="font-font-secondary text-text-accent-secondary">
+            Upcoming event
+          </p>
+          <p class="text-xl">6/11 Lunch Hour Pizza</p>
+          <img src="./img/wooden-room.png" alt="Wooden classrom" />
+        </div>
 
-</div>
+        <div
+          class="flex flex-col justify-center gap-8 py-12 px-8 border-2 border-border-color rounded-xl"
+        >
+          <p class="font-font-secondary text-text-accent-secondary">
+            Spotlight
+          </p>
+          <img
+            src="./img/johny-s.png"
+            alt="Photo Johnny S."
+            class="mx-auto w-50 h-50"
+          />
+          <p class="text-xl">Johnny S.</p>
+          <p class="font-font-secondary text-text-accent">
+            Congrats Johnny on qualifying for Nationals!
+          </p>
+        </div>
+      </div>
+    </section>
 
-<div class="relative mx-10 lg:mx-37 mb-16 place-items-center">
-  <img src="./img/classroom.png" alt="Classroom photo">
-</div>
-</section>
+    <section>
+      <h2 class="text-5xl text-start md:text-6xl mt-8 mx-10 mb-11 md:mb-21">
+        2025 Regional Results
+      </h2>
 
-<section>
-  <h2 class="text-5xl text-center md:text-6xl mb-11 md:mb-21">The latest news</h2>
+      <p class="font-font-secondary text-text-accent mx-10 mb-14">
+        Scoresheets are available for download below.
+      </p>
 
-  <div class="grid gap-5 mb-16 text-center mx-12 md:grid md:grid-cols-2">
+      <div class="flex flex-col gap-9 mb-14 md:grid md:grid-cols-2">
+        <div class="mx-10 flex flex-col gap-8">
+          <p class="font-font-secondary text-text-accent-secondary">
+            Speech events
+          </p>
 
-<div class="flex flex-col gap-8 py-12 px-8 md:col-span-2 border-2 border-border-color rounded-xl md:grid md:grid-cols-[282px_290px] md:place-content-around lg:grid-cols-[520px_520px]">
+          <p class="text-xl border-l-2 border-border-color pl-5 pb-7">
+            Dramatic Interpretation (DI)
+          </p>
+          <p class="text-xl border-l-2 border-border-color pl-5 pb-7">
+            Duo Interpretation (DUO)
+          </p>
+          <p class="text-xl border-l-2 border-border-color pl-5 pb-7">
+            Humorous Interpretation (HI)
+          </p>
+          <p class="text-xl border-l-2 border-border-color pl-5 pb-7">
+            Humorous Interpretation (HI)
+          </p>
+        </div>
 
-    <img src="./img/man-on-stage.png" alt="Man on the stage" class="row-[1_/span_3]"><p class="font-font-secondary text-text-accent-secondary">2025 Regional Results</p>
-<p class="text-xl">Lincoln Takes Home 1st place overall. </p>
-<p class="font-font-secondary text-text-accent">The team took home a stunning win, claiming 3 of the top 5 spots! Big shout outs to Emily, Steve, Bryan and Lizzie.</p>
+        <div class="mx-10 flex flex-col gap-8">
+          <p class="font-font-secondary text-text-accent-secondary">
+            Debate events
+          </p>
 
-  </div>
+          <p class="text-xl border-l-2 border-border-color pl-5 pb-7">
+            Extemporaneous Debate (XDB)
+          </p>
+          <p class="text-xl border-l-2 border-border-color pl-5 pb-7">
+            Lincoln-Douglas Debate (LD)
+          </p>
+        </div>
+      </div>
+    </section>
 
-<div class="flex flex-col gap-8 py-12 px-8 border-2 border-border-color rounded-xl">
-
-  <p class="font-font-secondary text-text-accent-secondary">Upcoming event</p>
-<p class="text-xl"> 6/11 Lunch Hour Pizza</p>
-<img src="./img/wooden-room.png" alt="Wooden classrom"></div>
-
-
-<div class="flex flex-col justify-center gap-8 py-12 px-8 border-2 border-border-color rounded-xl">
-  <p class="font-font-secondary text-text-accent-secondary">Spotlight</p>
-  <img src="./img/johny-s.png" alt="Photo Johnny S." class="mx-auto w-50 h-50">
-<p class="text-xl">Johnny S.</p>
-<p class="font-font-secondary text-text-accent">Congrats Johnny on qualifying for Nationals!</p></div>
-</section>
+    <div class="relative overflow-hidden h-[480px] md:h-[400px] lg:h-[332px]">
+      <img
+        src="./img/elementary-school.png"
+        alt="Elementary school photo"
+        class="absolute inset-0 w-full h-full object-cover object-center"
+      />
+      <div
+        class="absolute inset-0 text-center bg-text-color/30 rounded-xl text-white flex flex-col gap-4 items-center justify-center m-16"
+      >
+        <p class="text-5xl">All voices are welcome here!</p>
+        <a href="#" class="underline text-4xl">Join us</a>
+      </div>
+    </div>
   </body>
 </html>
