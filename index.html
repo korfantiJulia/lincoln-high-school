@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-bg-color: #fcfaf6;
+        --color-bg-accent: #F6F0E4;
+        --color-text-color: #000000;
+        --color-text-accent: #5b5b5b;
+        --color-border-color: #E4E4E4;
+        --font-font-title: "Gowun Batang";
+        --font-font-secondary: "Rethink Sans";
+      }
+    </style>
+    <title>Lincoln High School</title>
+  </head>
+  <body class='bg-bg-color font-font-title'>
+    <nav class="relative">
+      <div class="mx-auto max-w-7xl px-6 py-6 border-b-2 border-border-color md:px-4 md:py-5 md:mx-17">
+        <div class="relative sm:hidden">
+
+            <input
+    type="checkbox"
+    id="burger-toggle"
+    class="peer hidden"
+  />
+
+               <label
+    for="burger-toggle"
+    class="cursor-pointer text-lg text-text-color
+           hover:text-text-accent hover:duration-700"
+  >
+    <span class="peer-checked:hidden">Menu</span>
+
+  </label>
+
+  <ul
+        class="absolute left-0 mt-3 w-full
+               hidden peer-checked:flex flex-col gap-2 p-3"
+      >
+        <li><a class="block text-text-color px-3 py-2 text-lg cursor-pointer hover:text-text-accent hover:duration-700"">Home</a></li>
+        <li><a class="block text-text-color px-3 py-2 text-lg cursor-pointer hover:text-text-accent hover:duration-700"">Details</a></li>
+        <li><a class="block text-text-color px-3 py-2 text-lg cursor-pointer hover:text-text-accent hover:duration-700"">News</a></li>
+        <li><a class="block text-text-color px-3 py-2 text-lg cursor-pointer hover:text-text-accent hover:duration-700"">Contact</a></li>
+      </ul>
+
+    </div>
+
+    <div class="hidden sm:flex space-x-4 mt-4">
+      <a class="px-3 py-2 text-text-color cursor-pointer hover:text-text-accent hover:duration-700">Home</a>
+      <a class="px-3 py-2 text-text-color cursor-pointer hover:text-text-accent hover:duration-700">Details</a>
+      <a class="px-3 py-2 text-text-color cursor-pointer hover:text-text-accent hover:duration-700">News</a>
+      <a class="px-3 py-2 text-text-color cursor-pointer hover:text-text-accent hover:duration-700">Contact</a>
+    </div>
+</div>
+
+    </nav>
+
+    <section>
+      <div class="flex flex-col gap-3 md:flex-row md:justify-between md: text-center text-base bg-bg-accent py-4 px-6 font-font-secondary rounded-xl mx-5">
+        <p>
+          Announcement: Spring ASB Election is now live for voting!
+        </p>
+        <a href="#" class="underline">Survey here</a>
+      </div>
+    </section>
+  </body>
+</html>
